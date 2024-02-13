@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testBench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testBench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="285.001 ns"></ZoomEndTime>
+      <Cursor1Time time="5.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wave_markers>
+      <marker time="80000" label="" />
+      <marker time="162000" label="" />
+   </wave_markers>
+   <wvobject type="divider" fp_name="divider8">
+      <obj_property name="label">testBench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group9" type="group">
+      <obj_property name="label">testBench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testBench/clk_tb" type="logic">
+         <obj_property name="ElementShortName">clk_tb</obj_property>
+         <obj_property name="ObjectShortName">clk_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/rst_tb" type="logic">
+         <obj_property name="ElementShortName">rst_tb</obj_property>
+         <obj_property name="ObjectShortName">rst_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/rst_n_tb" type="logic">
+         <obj_property name="ElementShortName">rst_n_tb</obj_property>
+         <obj_property name="ObjectShortName">rst_n_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/resultSynchActiveHigh_tb" type="array">
+         <obj_property name="ElementShortName">resultSynchActiveHigh_tb[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultSynchActiveHigh_tb[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/resultSynchActiveLow_tb" type="array">
+         <obj_property name="ElementShortName">resultSynchActiveLow_tb[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultSynchActiveLow_tb[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/resultAsynchActiveHigh_tb" type="array">
+         <obj_property name="ElementShortName">resultAsynchActiveHigh_tb[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultAsynchActiveHigh_tb[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/resultAsynchActiveLow_tb" type="array">
+         <obj_property name="ElementShortName">resultAsynchActiveLow_tb[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultAsynchActiveLow_tb[23:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider10">
+      <obj_property name="label">topModule</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">topModule</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testBench/dut/resultSynchActiveHigh" type="array">
+         <obj_property name="ElementShortName">resultSynchActiveHigh[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultSynchActiveHigh[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/resultSynchActiveLow" type="array">
+         <obj_property name="ElementShortName">resultSynchActiveLow[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultSynchActiveLow[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/resultAsynchActiveHigh" type="array">
+         <obj_property name="ElementShortName">resultAsynchActiveHigh[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultAsynchActiveHigh[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/resultAsynchActiveLow" type="array">
+         <obj_property name="ElementShortName">resultAsynchActiveLow[23:0]</obj_property>
+         <obj_property name="ObjectShortName">resultAsynchActiveLow[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider27">
+      <obj_property name="label">synchActiveHighReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group28" type="group">
+      <obj_property name="label">synchActiveHighReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testBench/dut/i_synchActiveHighReset/result" type="array">
+         <obj_property name="ElementShortName">result[23:0]</obj_property>
+         <obj_property name="ObjectShortName">result[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_synchActiveHighReset/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_synchActiveHighReset/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider34">
+      <obj_property name="label">synchActiveLowReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">synchActiveLowReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testBench/dut/i_synchActiveLowReset/result" type="array">
+         <obj_property name="ElementShortName">result[23:0]</obj_property>
+         <obj_property name="ObjectShortName">result[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_synchActiveLowReset/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_synchActiveLowReset/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider41">
+      <obj_property name="label">asynchActiveHighReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group42" type="group">
+      <obj_property name="label">asynchActiveHighReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testBench/dut/i_asynchActiveHighReset/result" type="array">
+         <obj_property name="ElementShortName">result[23:0]</obj_property>
+         <obj_property name="ObjectShortName">result[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_asynchActiveHighReset/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_asynchActiveHighReset/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider48">
+      <obj_property name="label">asynchActiveLowReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group49" type="group">
+      <obj_property name="label">asynchActiveLowReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testBench/dut/i_asynchActiveLowReset/result" type="array">
+         <obj_property name="ElementShortName">result[23:0]</obj_property>
+         <obj_property name="ObjectShortName">result[23:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_asynchActiveLowReset/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_asynchActiveLowReset/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider39">
+      <obj_property name="label">nonSynthesizableReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group40" type="group">
+      <obj_property name="label">nonSynthesizableReset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testBench/dut/i_nonSynthesizableReset/result" type="array">
+         <obj_property name="ElementShortName">result[23:0]</obj_property>
+         <obj_property name="ObjectShortName">result[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_nonSynthesizableReset/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testBench/dut/i_nonSynthesizableReset/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
